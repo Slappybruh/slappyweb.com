@@ -1,0 +1,89 @@
+body {
+  background-color: #E0D8DC;
+}
+
+.nav :hover {
+  color: rgb(169, 90, 193);
+}
+
+a:link {
+  color: #aa3636;
+}
+
+.jumbotron a:visited {
+  color: white;
+}
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: hotpink;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+	background-image: url(../images/Fantasy%20Life.jpg);
+	border-radius: 0px;
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 50px;
+}
+
+.jumbotron .container h1 {
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+	font-family: "Droid Sans Mono", sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron .container p {
+	color: rgb(32, 33, 62);
+	font-size: 20px;
+}
+
+.jumbotron a {
+  font-size: 30px;
+}
+
+.middle-section .container p{
+ padding-left: 15%;
+}
+
+.thumbnail {
+  border: 50px !important;
+  box-shadow: 0px !important;
+  background-color: #E0D8DC;
+}
+
+.footer {  
+  background-color: #f7f7f7;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+}
+
+.mlg {
+    background-image: url("slappy bg.png");
+    background-size:auto;
+    width:2000px;
+    height:1600px;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.pcenter {
+    text-align: center;
+}
